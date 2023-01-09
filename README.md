@@ -1,2 +1,2 @@
-# bbc1183.github.io
+# Blake Camp
 Background and Projects
