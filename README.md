@@ -1,2 +1,2 @@
-# Blake Camp ![](https://github.com/bbc1183/Deep-Artificial-Neurons/blob/main/gif2.gif)
+# Blake Camp ![](https://github.com/blake-camp/Deep-Artificial-Neurons/blob/main/profile_pic.jpg)
 Background and Projects
