@@ -2,7 +2,9 @@
 <html>
 <head>
   <title>Blake Camp</title>
-  <!-- Add any CSS styles or external libraries here (optional) -->
+  <!-- Add Bootstrap CSS link -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Add your custom CSS styles here (optional) -->
   <style>
     /* Add your custom CSS styles here (optional) */
     body {
@@ -19,32 +21,74 @@
   </style>
 </head>
 <body>
-  <!-- Header section -->
-  <header>
-    <h1>Blake Camp</h1>
-    <img class="profile-picture" src="profile_pic.jpg" alt="Your Profile Picture">
-  </header>
+  <!-- Navbar section -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">My Website</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <!-- Add any additional navigation links here (optional) -->
+      </ul>
+    </div>
+  </nav>
 
-  <!-- Publications section -->
-  <section class="publications">
-    <h2>Publications</h2>
-    <ul>
-      <li>[Publication 1]</li>
-      <li>[Publication 2]</li>
-      <li>[Publication 3]</li>
-      <!-- Add more bullet points for your publications as needed -->
-    </ul>
-  </section>
+  <!-- Main content -->
+  <div class="container mt-5">
+    <!-- Header section -->
+    <header>
+      <h1>Blake Camp</h1>
+      <img class="profile-picture" src="profile_pic.jpg" alt="Your Profile Picture">
+    </header>
 
-  <!-- About Me section -->
-  <section>
-    <h2>About Me</h2>
-    <p>
-      Add a brief introduction about yourself here. You can talk about your academic background, research interests, or any other relevant information.
-    </p>
-  </section>
+    <!-- Publications section -->
+    <section class="publications">
+      <h2>Publications</h2>
+      <ul>
+        <li>[Publication 1]</li>
+        <li>[Publication 2]</li>
+        <li>[Publication 3]</li>
+        <!-- Add more bullet points for your publications as needed -->
+      </ul>
+    </section>
 
-  <!-- Projects section -->
-  <section>
-    <h2>Projects</h2>
-    <p>
+    <!-- About Me section -->
+    <section>
+      <h2>About Me</h2>
+      <p>
+        Add a brief introduction about yourself here. You can talk about your academic background, research interests,
+        or any other relevant information.
+      </p>
+    </section>
+
+    <!-- Projects section -->
+    <section>
+      <h2>Projects</h2>
+      <p>
+        Describe some of the projects you have worked on. Provide links to their repositories or any live demos if available.
+      </p>
+    </section>
+
+    <!-- Contact section -->
+    <section>
+      <h2>Contact Me</h2>
+      <p>
+        You can reach me at [Your email address] or connect with me on [LinkedIn, Twitter, etc.].
+      </p>
+    </section>
+  </div>
+
+  <!-- Footer section -->
+  <footer class="mt-5 py-3 bg-light text-center">
+    <p>&copy; [Your Name] | [Year]</p>
+  </footer>
+
+  <!-- Add Bootstrap and jQuery scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
